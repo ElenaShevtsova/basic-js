@@ -4,7 +4,7 @@ module.exports = function transform(arr) {
     } else if (arr.length === 0) {
         return [];
     } else if (typeof arr === 'object') {
-        throw new SyntaxError("Error");
+        throw new Error("Error");
     } else {
         for (let i = 0; i < arr.length; i++) {
             if (arr[i] === "--double-next") {
