@@ -1,5 +1,4 @@
 module.exports = function countCats(backyard) {
-  // throw 'Not implemented';
   let number = 0;
   if (!backyard) {
     return false;
